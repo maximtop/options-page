@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Options page",
+    "author": "maximtop@gmail.com",
+    "version": "0.0.1",
+    "description": "Sample with options page opening",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "tabs"
+    ]
+}
